@@ -8,5 +8,6 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 import { defineApp } from 'iles'
+import 'uno.css'
 
 export default defineApp({})
