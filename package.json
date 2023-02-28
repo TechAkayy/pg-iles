@@ -5,13 +5,15 @@
 		"dev": "iles dev --open",
 		"build": "iles build",
 		"preview": "iles preview --open --port 5050",
-		"typecheck": "vue-tsc --noEmit"
+		"typecheck": "vue-tsc --noEmit",
+		"vue-devtools": "vue-devtools"
 	},
 	"engines": {
 		"node": "^14.18 || >= 16.0.0"
 	},
 	"devDependencies": {
 		"@pinegrow/vite-plugin": "^3.0.0-beta.48",
+		"@vue/devtools": "^6.5.0",
 		"iles": "^0.8.6",
 		"typescript": "^4.5",
 		"vue-tsc": "^0.38"

@@ -6,7 +6,7 @@ import { liveDesigner } from '@pinegrow/vite-plugin'
 export default defineConfig({
 	plugins: [
 		liveDesigner({
-			//...
+			devtoolsKey: 'devtools',
 		}),
 		//...
 	],
