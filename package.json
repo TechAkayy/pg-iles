@@ -7,7 +7,8 @@
 		"preview": "iles preview --open --port 5050",
 		"typecheck": "vue-tsc --noEmit",
 		"vue-devtools": "vue-devtools",
-    "lint": "eslint --ext .js,.cjs,.ts,.vue --ignore-path .gitignore --fix src"
+		"lint": "eslint --ext .js,.cjs,.ts,.vue --ignore-path .gitignore --fix src",
+		"format": "prettier --write ."
 	},
 	"engines": {
 		"node": "^14.18 || >= 16.0.0"
@@ -19,7 +20,9 @@
 		"@unocss/preset-icons": "^0.50.2",
 		"@vue/devtools": "^6.5.0",
 		"eslint": "^8.35.0",
+		"eslint-config-prettier": "^8.6.0",
 		"iles": "^0.8.6",
+		"prettier": "^2.8.4",
 		"typescript": "^4.5",
 		"unocss": "^0.50.2",
 		"vue-tsc": "^0.38"
