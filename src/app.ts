@@ -8,6 +8,12 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 import { defineApp } from 'iles'
+import { createPinia } from 'pinia'
 import 'uno.css'
 
-export default defineApp({})
+export default defineApp({
+	enhanceApp({ app, head, router }) {
+		const pinia = createPinia()
+		app.use(pinia)
+	},
+})
