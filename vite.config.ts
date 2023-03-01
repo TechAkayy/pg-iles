@@ -6,17 +6,17 @@ import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
 
 export default defineConfig({
-	plugins: [
-		liveDesigner({
-			devtoolsKey: 'devtools',
-		}),
-		Unocss({
-			presets: [
-				presetIcons({
-					prefix: '', // overrides default prefix 'i'
-				}),
-			],
-		}),
-	],
-	//...
+  plugins: [
+    liveDesigner({
+      devtoolsKey: 'devtools',
+    }),
+    Unocss({
+      presets: [
+        presetIcons({
+          prefix: '', // overrides default prefix 'i'
+        }),
+      ],
+    }),
+  ],
+  //...
 })

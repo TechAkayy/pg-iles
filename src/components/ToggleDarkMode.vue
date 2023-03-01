@@ -1,13 +1,13 @@
 <script setup lang="ts">
-	import { computed } from 'vue'
-	import { useDark, useToggle } from '@vueuse/core'
+  import { computed } from 'vue'
+  import { useDark, useToggle } from '@vueuse/core'
 
-	const isDark = useDark()
-	const toggleDark = useToggle(isDark)
+  const isDark = useDark()
+  const toggleDark = useToggle(isDark)
 
-	const modeIcon = computed(() =>
-		isDark.value ? 'ic:twotone-dark-mode' : 'ic:twotone-light-mode'
-	)
+  const modeIcon = computed(() =>
+    isDark.value ? 'ic:twotone-dark-mode' : 'ic:twotone-light-mode',
+  )
 </script>
 <template>
   <BaseButton @click="toggleDark()">
@@ -23,9 +23,9 @@
   </BaseButton>
 </template>
 <style scoped>
-	.dark-mode-icon {
-		display: inline-block;
-		margin-left: 13px;
-		align-items: center;
-	}
+  .dark-mode-icon {
+    display: inline-block;
+    margin-left: 13px;
+    align-items: center;
+  }
 </style>
