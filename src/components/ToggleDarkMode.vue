@@ -10,12 +10,17 @@
 	)
 </script>
 <template>
-    <BaseButton @click="toggleDark()">
-        <span>Toggle Mode</span>
-        <template #suffix-icon>
-            <BaseIcon width="20px" class="dark-mode-icon" :name="modeIcon" style="margin-left: 8px"/>
-        </template>
-    </BaseButton>
+  <BaseButton @click="toggleDark()">
+    <span>Toggle Mode</span>
+    <template #suffix-icon>
+      <BaseIcon
+        width="20px"
+        class="dark-mode-icon"
+        :name="modeIcon"
+        style="margin-left: 8px"
+      />
+    </template>
+  </BaseButton>
 </template>
 <style scoped>
 	.dark-mode-icon {

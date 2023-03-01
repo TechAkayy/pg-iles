@@ -35,7 +35,10 @@
 </script>
 
 <template>
-	<div :class="name" :style="iconStyle"></div>
+  <div
+    :class="name"
+    :style="iconStyle"
+  />
 </template>
 
 <style scoped></style>

@@ -1,6 +1,7 @@
 <template>
-    <button><span style="display: flex"><span style="align-self: center; font-size: 15px"><slot>Click here</slot> </span> <slot name="suffix-icon"/> </span>
-    </button>
+  <button>
+    <span style="display: flex"><span style="align-self: center; font-size: 15px"><slot>Click here</slot> </span> <slot name="suffix-icon" /> </span>
+  </button>
 </template>
 <style scoped>
 	button {

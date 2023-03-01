@@ -4,14 +4,30 @@
 	}>()
 </script>
 <template>
-    <div class="greetings">
-        <div style="display: flex; align-items: center; justify-content: center">
-            <h1 class="green" style="min-width: 250px">Iles with Vue Designer!</h1>
-            <BaseIcon width="30px" style="margin-left: 10px; min-width: 30px" class="green"/>
-        </div>
-        <h3>
-			You’ve successfully created a project with <a target="_blank" href="https://iles-docs.netlify.app/">îles</a> + <a target="_blank" href="https://vitejs.dev/">Vite</a> + <FrameworkLink client:none/>. What's next? </h3>
+  <div class="greetings">
+    <div style="display: flex; align-items: center; justify-content: center">
+      <h1
+        class="green"
+        style="min-width: 250px"
+      >
+        Iles with Vue Designer!
+      </h1>
+      <BaseIcon
+        width="30px"
+        style="margin-left: 10px; min-width: 30px"
+        class="green"
+      />
     </div>
+    <h3>
+      You’ve successfully created a project with <a
+        target="_blank"
+        href="https://iles-docs.netlify.app/"
+      >îles</a> + <a
+        target="_blank"
+        href="https://vitejs.dev/"
+      >Vite</a> + <FrameworkLink client:none />. What's next?
+    </h3>
+  </div>
 </template>
 <style scoped>
 	h1 {
