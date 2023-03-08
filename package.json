@@ -1,6 +1,11 @@
 {
   "name": "pg-iles",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechAkayy/pg-iles.git",
+    "directory": "packages/vite"
+  },
   "scripts": {
     "dev": "iles dev --open",
     "build": "iles build",
@@ -17,7 +22,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.28",
     "@nuxt/eslint-config": "^0.1.1",
-    "@pinegrow/vite-plugin": "^3.0.0-beta.48",
+    "@pinegrow/vite-plugin": "file:/Users/techakayy/Pinegrow/PinegrowCode/frameworks/vue-svelte-designer/packages/vite-plugin",
     "@unocss/preset-icons": "^0.50.2",
     "@vue/devtools": "^6.5.0",
     "eslint": "^8.35.0",

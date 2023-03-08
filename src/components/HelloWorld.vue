@@ -6,11 +6,12 @@
 <template>
   <div class="greetings">
     <div style="display: flex; align-items: center; justify-content: center">
-      <h1 class="green" style="min-width: 250px">Iles with Vue Designer!</h1>
+      <h1 class="green" style="min-width: 250px">Hello World!</h1>
       <BaseIcon
         width="30px"
         style="margin-left: 10px; min-width: 30px"
         class="green"
+        client:visible
       />
     </div>
     <h3>

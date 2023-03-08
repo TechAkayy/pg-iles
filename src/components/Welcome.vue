@@ -2,16 +2,17 @@
 <template>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="ic:twotone-menu-book" width="24px" />
+      <BaseIcon name="logos:twitter" width="24px" />
     </template>
     <template #heading> Documentation </template>
-    îles’s
-    <a target="_blank" href="https://iles-docs.netlify.app/">documentation</a>
+    îles’s<a target="_blank" href="https://iles-docs.netlify.app/"
+      >documentation</a
+    >
     is in progress, but it should provide enough info to get started.
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="icon-park-twotone:tool" width="24px" />
+      <BaseIcon name="skill-icons:instagram" width="24px" />
     </template>
     <template #heading> Tooling </template>
     This project is served and bundled with<a
@@ -19,13 +20,17 @@
       target="_blank"
     >
       Vite </a
-    >. The recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
+    >. The recommended IDE setup is<a
+      href="https://code.visualstudio.com/"
+      target="_blank"
+      >VSCode</a
+    >
+    +
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>.
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="ic:twotone-chat-bubble" width="24px" />
+      <BaseIcon name="logos:facebook" width="24px" />
     </template>
     <template #heading> Community </template>
     Got stuck? Ask your question on the

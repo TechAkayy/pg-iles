@@ -1,9 +1,9 @@
 <template>
   <div class="layout">
+    <div class="toggle-position">
+      <ToggleDarkMode client:visible />
+    </div>
     <header>
-      <div class="toggle-position">
-        <ToggleDarkMode />
-      </div>
       <img
         alt="Vue logo"
         class="logo"
@@ -22,6 +22,7 @@
     <slot />
   </div>
 </template>
+
 <style>
   @import '~/assets/base.css';
   #app {
