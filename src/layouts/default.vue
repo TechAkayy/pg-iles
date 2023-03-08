@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <div class="toggle-position">
-      <ToggleDarkMode client:visible />
+      <ToggleDarkMode client:none />
     </div>
     <header>
       <img
