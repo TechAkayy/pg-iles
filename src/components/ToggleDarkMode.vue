@@ -10,7 +10,7 @@
   )
 </script>
 <template>
-  <BaseButton @click="toggleDark()">
+  <BaseButton key="base-button" @click="toggleDark()">
     <span>Toggle Mode</span>
     <template #suffix-icon>
       <BaseIcon
